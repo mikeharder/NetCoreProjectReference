@@ -1,4 +1,5 @@
 ﻿using System;
+using classlib_netstandard20;
 
 namespace console_netcoreapp20
 {
@@ -6,7 +7,7 @@ namespace console_netcoreapp20
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine(Class1.Name);
         }
     }
 }
